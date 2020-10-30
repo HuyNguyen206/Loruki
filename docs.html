@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="header-menu">
+    <header class="blue-bg">
+      <div class="header-menu blue-bg">
         <div class="container">
           <h2>Loruki</h2>
           <ul>
@@ -35,7 +35,69 @@
         <img src="img/docs.png" alt="" />
       </div>
     </header>
+    <div class="guide-doc my-5">
+      <div class="container grid">
+        <div class="side-menu card p-4">
+          <div class="menu-section">
+            <h2 class="menu-title pb-2">Essential</h2>
+            <ul>
+              <li><a href=""> Introdution </a></li>
+              <li><a href=""> About Loruki </a></li>
+              <li><a href=""> Installation </a></li>
+            </ul>
+          </div>
+          <div class="menu-section">
+            <h2 class="menu-title py-2">Deployment</h2>
+            <ul>
+              <li><a href=""> Setting up a container </a></li>
+              <li><a href=""> Using the CLI </a></li>
+              <li><a href=""> Managing resources </a></li>
+              <li><a href=""> Upgrade & downgrade </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-content card p-4">
+          <h2 class="pb-1">Introdution</h2>
+          <p class="text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            illo facere perferendis laborum? Similique recusandae incidunt eos
+            dolorum aliquam ipsam unde perspiciatis laudantium totam quam
+            laborum velit, at maxime minus?
+          </p>
+          <div class="alert flex p-1 mt-1">
+            <i class="fas fa-info p-1"></i>
+            <p class="text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+              animi?
+            </p>
+          </div>
+          <h2 class="my-2">Lorem, ipsum dolor.</h2>
+          <p class="text-sm">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
+            totam magni eius vitae velit id, atque veritatis! At, vero porro.
+          </p>
+          <a href="" class="btn install mt-1"> Install CLI </a>
+          <h2 class="my-2">Requirement</h2>
+          <p class="text-sm">Windows 10, Mac OSX, Linux</p>
+          <p class="text-sm">Node.js v12 or higher</p>
 
+          <h2 class="my-2">Install</h2>
+
+          <div class="system-console">
+            <h3 class="text-sm">Mac (Homebrew)</h3>
+            <pre class="cmd"><code>  $  brew  install  loruki-cli</code></pre>
+          </div>
+          <div class="system-console my-2">
+            <h3 class="text-sm">NPM</h3>
+            <pre class="cmd"> <code> $  npm  install  loruki-cli</code></pre>
+          </div>
+          <div class="system-console">
+            <h3 class="text-sm">Yarn</h3>
+            <pre class="cmd"><code> $  yarn  install  loruki-cli</code> </pre>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="container">
         <div class="copyright">
